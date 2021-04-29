@@ -3,7 +3,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: job-creator
   annotations:
-  configsync.gke.io/cluster-name-selector: central
+    configmanagement.gke.io/cluster-selector: selector-central
 rules:
 - apiGroups: ["batch/v1"]
   resources: ["jobs"]

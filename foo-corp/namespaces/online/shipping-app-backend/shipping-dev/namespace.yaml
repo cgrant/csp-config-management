@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: shipping-dev
   annotations:
-    configsync.gke.io/cluster-name-selector: central
+    configmanagement.gke.io/cluster-selector: selector-central
