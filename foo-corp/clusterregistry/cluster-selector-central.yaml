@@ -6,3 +6,4 @@ spec:
   selector:
     matchLabels:
       location: central
+ 
