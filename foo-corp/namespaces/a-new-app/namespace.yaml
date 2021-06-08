@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  annotations:
-    configmanagement.gke.io/cluster-selector: selector-west
-  name: a-new-app
