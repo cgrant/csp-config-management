@@ -4,4 +4,4 @@ metadata:
   name: west
   labels:
     environment: prod
-    location: west
+    location: west 
